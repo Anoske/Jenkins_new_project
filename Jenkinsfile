@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/твой-username/твой-репо.git'
+                    url: 'https://github.com/Anoske/Jenkins_new_project/tree/main'
             }
         }
         stage('Install') {
